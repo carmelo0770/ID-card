@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8">
+  <!-- 0 秒自動跳轉到目標網頁 -->
+  <meta http-equiv="refresh" content="0; url=https://你的目標網址.com">
+  <title>Redirecting...</title>
+  <script>
+    // 雙重保險：部分瀏覽器若未支援 meta refresh，用 JavaScript 跳轉
+    window.location.replace("https://你的目標網址.com");
+  </script>
+</head>
+<body style="background:#ffffff; font-family:sans-serif; text-align:center; padding-top:20%;">
+  <p>正在前往頁面，請稍候...</p>
+  <p>若未自動跳轉，請<a href="https://你的目標網址.com">點擊此處</a>。</p>
+</body>
+</html>
